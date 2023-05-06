@@ -6,7 +6,12 @@ namespace Homework_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Luka Simonishvili");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Please Enter your fullname...");
+            var userName = Console.ReadLine();
+            Console.WriteLine("Hello " + userName + " My name is Luka Simonishvili");
+            Console.ReadLine();
         }
     }
 }
