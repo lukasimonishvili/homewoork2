@@ -9,6 +9,7 @@ namespace homework6
         static void Main(string[] args)
         {
             // TASK #1
+            
             Console.WriteLine("please enter number");
             var arrayLength = Convert.ToInt32(Console.ReadLine());
             List<int> evenInts = new List<int>();
