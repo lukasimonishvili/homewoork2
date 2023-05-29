@@ -18,6 +18,13 @@ namespace homework8
             genericArray(boolList);
 
             Console.WriteLine(printEacMemberOfStringNumber("123456778"));
+
+            var person = new Person();
+            person.firstName = "John";
+            person.lastName = "Doe";
+            person.age = 1;
+
+            Console.WriteLine(person);
         }
 
         static void getRootsInIntRange(int start, int end, int root)
