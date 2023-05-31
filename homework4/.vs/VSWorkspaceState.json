@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\obj"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\obj\\Homework 2.csproj.nuget.dgspec.json",
   "PreviewInSolutionExplorer": false
 }

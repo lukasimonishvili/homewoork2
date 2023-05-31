@@ -1,0 +1,16 @@
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\bin\Debug\net5.0\ReportGenrator.exe
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\bin\Debug\net5.0\ReportGenrator.deps.json
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\bin\Debug\net5.0\ReportGenrator.runtimeconfig.json
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\bin\Debug\net5.0\ReportGenrator.runtimeconfig.dev.json
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\bin\Debug\net5.0\ReportGenrator.dll
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\bin\Debug\net5.0\ReportGenrator.pdb
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\obj\Debug\net5.0\ReportGenrator.csproj.AssemblyReference.cache
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\obj\Debug\net5.0\ReportGenrator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\obj\Debug\net5.0\ReportGenrator.AssemblyInfoInputs.cache
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\obj\Debug\net5.0\ReportGenrator.AssemblyInfo.cs
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\obj\Debug\net5.0\ReportGenrator.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\obj\Debug\net5.0\ReportGenrator.dll
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\obj\Debug\net5.0\refint\ReportGenrator.dll
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\obj\Debug\net5.0\ReportGenrator.pdb
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\obj\Debug\net5.0\ReportGenrator.genruntimeconfig.cache
+C:\Users\simon\Desktop\work\homeworks\homework11\ReportGenrator\obj\Debug\net5.0\ref\ReportGenrator.dll

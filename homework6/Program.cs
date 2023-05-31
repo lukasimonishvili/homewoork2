@@ -9,7 +9,6 @@ namespace homework6
         static void Main(string[] args)
         {
             // TASK #1
-            
             Console.WriteLine("please enter number");
             var arrayLength = Convert.ToInt32(Console.ReadLine());
             List<int> evenInts = new List<int>();
@@ -47,7 +46,7 @@ namespace homework6
             List<int> resultList = new List<int>();
             Console.WriteLine("please enter number");
             var topNnumberCount = Convert.ToInt32(Console.ReadLine());
-            for(var i = 0; i < topNnumberCount; i++)
+            for (var i = 0; i < topNnumberCount; i++)
             {
                 var res = randomList.Max();
                 resultList.Add(res);

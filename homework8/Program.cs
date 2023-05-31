@@ -18,22 +18,15 @@ namespace homework8
             genericArray(boolList);
 
             Console.WriteLine(printEacMemberOfStringNumber("123456778"));
-
-            var person = new Person();
-            person.firstName = "John";
-            person.lastName = "Doe";
-            person.age = 1;
-
-            Console.WriteLine(person);
         }
 
         static void getRootsInIntRange(int start, int end, int root)
         {
             int result = 0;
-            for(int i = start; i < end; i++)
+            for (int i = start; i < end; i++)
             {
-               double roots = Math.Pow(i, 1.0 / root);
-                if(roots == Math.Round(roots))
+                double roots = Math.Pow(i, 1.0 / root);
+                if (roots == Math.Round(roots))
                 {
                     result++;
                 }
@@ -50,7 +43,7 @@ namespace homework8
                 socksText = socksText.Remove(0, 1);
                 int indexToRemove = socksText.IndexOf(charToFind);
 
-                if(indexToRemove > -1)
+                if (indexToRemove > -1)
                 {
                     result++;
                     socksText = socksText.Remove(indexToRemove, 1);
@@ -62,17 +55,19 @@ namespace homework8
         static void endsWithMatch(string firstText, string secondText)
         {
             var result = "";
-            if(firstText == secondText)
+            if (firstText == secondText)
             {
                 result = firstText;
-            }else
+            }
+            else
             {
-                for(var i = 0; i < firstText.Length; i++)
+                for (var i = 0; i < firstText.Length; i++)
                 {
                     if (firstText[firstText.Length - (i + 1)] == secondText[secondText.Length - (i + 1)])
                     {
                         result = firstText[firstText.Length - (i + 1)] + result;
-                    }else
+                    }
+                    else
                     {
                         break;
                     }
@@ -94,18 +89,18 @@ namespace homework8
                         sum += Convert.ToInt32(item);
                     }
                     Console.WriteLine(sum);
-                break;
+                    break;
                 case "System.String":
-                    foreach(var item in genericArr)
+                    foreach (var item in genericArr)
                     {
                         Console.WriteLine(item.ToString().ToUpper());
                     }
-                break;
+                    break;
                 case "System.Boolean":
                     Console.WriteLine("First element is " + genericArr[0].ToString());
                     Console.WriteLine("Middle element is " + genericArr[genericArr.Count / 2].ToString());
                     Console.WriteLine("Last element is " + genericArr[genericArr.Count - 1].ToString());
-                break;
+                    break;
 
             }
         }
@@ -115,7 +110,7 @@ namespace homework8
             var result = stringNumber[0].ToString();
             stringNumber = stringNumber.Remove(0, 1);
 
-            if(stringNumber.Length > 0)
+            if (stringNumber.Length > 0)
             {
                 result = result + " - " + printEacMemberOfStringNumber(stringNumber);
             }

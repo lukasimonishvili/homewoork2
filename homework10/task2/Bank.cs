@@ -15,15 +15,16 @@ namespace task2
 
         public bool CheckUserHistory()
         {
-            bool[] isUserHistoryValid = {true, false};
+            bool[] isUserHistoryValid = { true, false };
             var random = new Random();
             var randomIndex = random.Next(0, isUserHistoryValid.Length - 1);
 
             return isUserHistoryValid[randomIndex];
         }
 
-        public void requestLoad(int mont, int amount) { 
-            if(CheckUserHistory())
+        public void requestLoad(int mont, int amount)
+        {
+            if (CheckUserHistory())
             {
                 CalculateLoanPercent(mont, amount);
             }
