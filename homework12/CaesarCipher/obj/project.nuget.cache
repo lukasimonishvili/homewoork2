@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ulQIbvinh1px8dBcCpwkUVIxNMpw7ftWYJiVF5YmGtphH4e52klF53S/cKCOct23kgvCzhBoo2HL4KTj9TCOLg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\simon\\Desktop\\work\\homeworks\\homework12\\CaesarCipher\\CaesarCipher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simon\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

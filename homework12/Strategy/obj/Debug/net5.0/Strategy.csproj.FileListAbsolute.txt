@@ -1,0 +1,16 @@
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\bin\Debug\net5.0\Strategy.exe
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\bin\Debug\net5.0\Strategy.deps.json
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\bin\Debug\net5.0\Strategy.runtimeconfig.json
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\bin\Debug\net5.0\Strategy.runtimeconfig.dev.json
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\bin\Debug\net5.0\Strategy.dll
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\bin\Debug\net5.0\Strategy.pdb
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\obj\Debug\net5.0\Strategy.csproj.AssemblyReference.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\obj\Debug\net5.0\Strategy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\obj\Debug\net5.0\Strategy.AssemblyInfoInputs.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\obj\Debug\net5.0\Strategy.AssemblyInfo.cs
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\obj\Debug\net5.0\Strategy.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\obj\Debug\net5.0\Strategy.dll
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\obj\Debug\net5.0\refint\Strategy.dll
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\obj\Debug\net5.0\Strategy.pdb
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\obj\Debug\net5.0\Strategy.genruntimeconfig.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\Strategy\obj\Debug\net5.0\ref\Strategy.dll

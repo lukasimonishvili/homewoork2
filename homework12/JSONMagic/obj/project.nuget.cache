@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pbkadH4MPx3Jc7m8zYIFxCmde5jaooSduHLIw1VksPV6pe8Dh+s3P6qViq4Jy7W8bGzlIvEsdyzTa+vBISxsbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\simon\\Desktop\\work\\homeworks\\homework12\\JSONMagic\\JSONMagic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simon\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

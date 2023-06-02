@@ -1,0 +1,16 @@
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\bin\Debug\net5.0\ReadLastLineOfTxtFile.exe
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\bin\Debug\net5.0\ReadLastLineOfTxtFile.deps.json
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\bin\Debug\net5.0\ReadLastLineOfTxtFile.runtimeconfig.json
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\bin\Debug\net5.0\ReadLastLineOfTxtFile.runtimeconfig.dev.json
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\bin\Debug\net5.0\ReadLastLineOfTxtFile.dll
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\bin\Debug\net5.0\ReadLastLineOfTxtFile.pdb
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\obj\Debug\net5.0\ReadLastLineOfTxtFile.csproj.AssemblyReference.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\obj\Debug\net5.0\ReadLastLineOfTxtFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\obj\Debug\net5.0\ReadLastLineOfTxtFile.AssemblyInfoInputs.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\obj\Debug\net5.0\ReadLastLineOfTxtFile.AssemblyInfo.cs
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\obj\Debug\net5.0\ReadLastLineOfTxtFile.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\obj\Debug\net5.0\ReadLastLineOfTxtFile.dll
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\obj\Debug\net5.0\refint\ReadLastLineOfTxtFile.dll
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\obj\Debug\net5.0\ReadLastLineOfTxtFile.pdb
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\obj\Debug\net5.0\ReadLastLineOfTxtFile.genruntimeconfig.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\ReadLastLineOfTxtFile\obj\Debug\net5.0\ref\ReadLastLineOfTxtFile.dll

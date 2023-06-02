@@ -1,0 +1,16 @@
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\bin\Debug\net5.0\XMLMagic.exe
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\bin\Debug\net5.0\XMLMagic.deps.json
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\bin\Debug\net5.0\XMLMagic.runtimeconfig.json
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\bin\Debug\net5.0\XMLMagic.runtimeconfig.dev.json
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\bin\Debug\net5.0\XMLMagic.dll
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\bin\Debug\net5.0\XMLMagic.pdb
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\obj\Debug\net5.0\XMLMagic.csproj.AssemblyReference.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\obj\Debug\net5.0\XMLMagic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\obj\Debug\net5.0\XMLMagic.AssemblyInfoInputs.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\obj\Debug\net5.0\XMLMagic.AssemblyInfo.cs
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\obj\Debug\net5.0\XMLMagic.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\obj\Debug\net5.0\XMLMagic.dll
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\obj\Debug\net5.0\refint\XMLMagic.dll
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\obj\Debug\net5.0\XMLMagic.pdb
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\obj\Debug\net5.0\XMLMagic.genruntimeconfig.cache
+C:\Users\simon\Desktop\work\homeworks\homework12\XMLMagic\obj\Debug\net5.0\ref\XMLMagic.dll

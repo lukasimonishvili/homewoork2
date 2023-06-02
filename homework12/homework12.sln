@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadLastLineOfTxtFile", "ReadLastLineOfTxtFile\ReadLastLineOfTxtFile.csproj", "{D653223F-E1F4-4AED-B77B-9B7692BCD13C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicationTable", "MultiplicationTable\MultiplicationTable.csproj", "{3B79A339-084F-42C9-AFA4-6C0D14287BF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLMagic", "XMLMagic\XMLMagic.csproj", "{EF4D92F2-BBCB-490D-AE23-56F813586BA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSONMagic", "JSONMagic\JSONMagic.csproj", "{67838D1B-AB89-41B8-8517-B09BC461B990}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCipher", "CaesarCipher\CaesarCipher.csproj", "{CD76C231-5462-44EF-AF49-09C80F6C760B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{B20480EF-5750-4DDF-85C0-2CED960B3B74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D653223F-E1F4-4AED-B77B-9B7692BCD13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D653223F-E1F4-4AED-B77B-9B7692BCD13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D653223F-E1F4-4AED-B77B-9B7692BCD13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D653223F-E1F4-4AED-B77B-9B7692BCD13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B79A339-084F-42C9-AFA4-6C0D14287BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B79A339-084F-42C9-AFA4-6C0D14287BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B79A339-084F-42C9-AFA4-6C0D14287BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B79A339-084F-42C9-AFA4-6C0D14287BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4D92F2-BBCB-490D-AE23-56F813586BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4D92F2-BBCB-490D-AE23-56F813586BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4D92F2-BBCB-490D-AE23-56F813586BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4D92F2-BBCB-490D-AE23-56F813586BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67838D1B-AB89-41B8-8517-B09BC461B990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67838D1B-AB89-41B8-8517-B09BC461B990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67838D1B-AB89-41B8-8517-B09BC461B990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67838D1B-AB89-41B8-8517-B09BC461B990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD76C231-5462-44EF-AF49-09C80F6C760B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD76C231-5462-44EF-AF49-09C80F6C760B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD76C231-5462-44EF-AF49-09C80F6C760B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD76C231-5462-44EF-AF49-09C80F6C760B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20480EF-5750-4DDF-85C0-2CED960B3B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20480EF-5750-4DDF-85C0-2CED960B3B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20480EF-5750-4DDF-85C0-2CED960B3B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20480EF-5750-4DDF-85C0-2CED960B3B74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBDE1DF2-BE9F-4D43-AA91-0CE2301419AA}
+	EndGlobalSection
+EndGlobal
