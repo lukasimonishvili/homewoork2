@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oQ2kpSRam1g4BpCnpNVTkNiSj67XUUIqJiRMC5E0OI9+Ur9jdkrNeqLuQAHJbt2X84CGG23SZPUd+y9CA3MCug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\simon\\Desktop\\work\\homeworks\\homework13\\doctorApointment\\doctorApointment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\simon\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

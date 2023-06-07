@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Book Apointment";
+}
+<style>
+    label {
+        display: block;
+        transition: 0.3s;
+    }
+
+    input {
+        transition: 0.3s;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    form {
+        margin: 50px;
+    }
+
+    .error-message {
+        opacity: 0;
+        transition: 0.3s;
+        color: red;
+    }
+
+   .visible {
+       opacity: 1;
+   }
+    
+
+   .error-color {
+       color: red;
+       border-color: red;
+   }
+
+</style>
+<h1>Book apointment</h1>
+<form action="apointment" method="post" id="form">
+    <div>
+        <label for="firstName">First Name</label>
+        <input type="text" name="FirstName" id="firstName" required />
+    </div>
+    <div>
+        <label for="lastName">Lasr Name</label>
+        <input type="text" name="LastName" id="lastName" required/>
+    </div>
+    <div>
+        <label for="doctor">Doctor</label>
+        <select name="Doctor" id="doctor" required>
+            <option value="dentist">Dentist</option>
+            <option value="dermatologist">Dermatologist</option>
+            <option value="neurologist">Neurologist</option>
+            <option value="oncologist">Oncologist</option>
+        </select>
+    </div>
+    <div>
+        <label for="time" id="timeLabel">Visit Time</label>
+        <input type="text" name="Time" id="time" placeholder="15:00" required/>
+        <p id="errorMessage" class="error-message">Please enter 24 hours format time</p>
+    </div>
+    <button type="submit">Submit</button>
+</form>
+<script>
+    var formElement = document.getElementById("form");
+    var timeInputElement = document.getElementById("time");
+    var timeLabelElement = document.getElementById("timeLabel");
+    var timeErrorMessageElement = document.getElementById("errorMessage");
+
+    function onFormSubmit(e) {
+        var timeSplitArr = timeInputElement.value.split(":");
+        if (
+            timeInputElement.value.length > 5 
+            || timeSplitArr.length !== 2 
+            || isNaN(timeSplitArr[0]) 
+            || isNaN(timeSplitArr)[1]
+            || timeSplitArr[0].length !== 2 
+            || timeSplitArr[1].length !== 2 
+            || +timeSplitArr[0] < 0
+            || +timeSplitArr[0] > 23
+            || +timeSplitArr[1] < 0
+            || +timeSplitArr[1] > 59
+        ) {
+            timeInputElement.classList.add("error-color");
+            timeLabelElement.classList.add("error-color");
+            timeErrorMessageElement.classList.add("visible");
+            e.preventDefault();
+        }
+        return;
+    }
+
+    formElement.addEventListener("submit", onFormSubmit);
+</script>

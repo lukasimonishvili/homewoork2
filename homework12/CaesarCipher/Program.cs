@@ -24,7 +24,9 @@ namespace CaesarCipher
             for (var i = 0; i < jsonDataObject.word.Length; i++)
             {
                 var charIndex = Array.IndexOf(abc, jsonDataObject.word.Substring(i, 1));
-                var index = charIndex + jsonDataObject.key > abc.Length - 1 ? (charIndex + jsonDataObject.key) - abc.Length : charIndex + jsonDataObject.key;
+                var index = charIndex + jsonDataObject.key > abc.Length - 1
+                ? (charIndex + jsonDataObject.key) - abc.Length
+                : charIndex + jsonDataObject.key;
                 output += abc[index];
             }
 

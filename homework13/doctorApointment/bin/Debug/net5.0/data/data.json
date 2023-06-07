@@ -1,0 +1,20 @@
+[
+  {
+    "FirstName": "Luka",
+    "LastName": "Simonishvili",
+    "Doctor": "dermatologist",
+    "Time": "15:00"
+  },
+  {
+    "FirstName": "1",
+    "LastName": "1",
+    "Doctor": "dentist",
+    "Time": "12"
+  },
+  {
+    "FirstName": "2",
+    "LastName": "2",
+    "Doctor": "dermatologist",
+    "Time": "12:22"
+  }
+]

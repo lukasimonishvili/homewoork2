@@ -1,0 +1,41 @@
+﻿<style>
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    table {
+        margin-top: 100px;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 20px;
+    }
+</style>
+<div>
+    <table>
+        <tbody>
+            <tr>
+                <th>Patien First Name</th>
+                <th>Patien Last Name</th>
+                <th>Doctor</th>
+                <th>Time</th>
+            </tr>
+            @foreach(var apointment in ViewBag.List)
+            {
+                <tr>
+                    <td>@apointment.FirstName</td>
+                    <td>@apointment.LastName</td>
+                    <td>@apointment.Doctor</td>
+                    <td>@apointment.Time</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
