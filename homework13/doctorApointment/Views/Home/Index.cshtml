@@ -69,19 +69,8 @@
     var timeErrorMessageElement = document.getElementById("errorMessage");
 
     function onFormSubmit(e) {
-        var timeSplitArr = timeInputElement.value.split(":");
-        if (
-            timeInputElement.value.length > 5 
-            || timeSplitArr.length !== 2 
-            || isNaN(timeSplitArr[0]) 
-            || isNaN(timeSplitArr)[1]
-            || timeSplitArr[0].length !== 2 
-            || timeSplitArr[1].length !== 2 
-            || +timeSplitArr[0] < 0
-            || +timeSplitArr[0] > 23
-            || +timeSplitArr[1] < 0
-            || +timeSplitArr[1] > 59
-        ) {
+        var pattern = /^([01]\d|2[0-3]):([0-5]\d)$/;
+        if (!pattern.test(timeInputElement.value)) {
             timeInputElement.classList.add("error-color");
             timeLabelElement.classList.add("error-color");
             timeErrorMessageElement.classList.add("visible");
