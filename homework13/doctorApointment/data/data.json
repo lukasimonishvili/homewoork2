@@ -1,50 +1,8 @@
 [
   {
-    "FirstName": "Luka",
-    "LastName": "Simonishvili",
+    "FirstName": "saba",
+    "LastName": "sozari",
     "Doctor": "dermatologist",
     "Time": "15:00"
-  },
-  {
-    "FirstName": "1",
-    "LastName": "1",
-    "Doctor": "dentist",
-    "Time": "12"
-  },
-  {
-    "FirstName": "2",
-    "LastName": "2",
-    "Doctor": "dermatologist",
-    "Time": "12:22"
-  },
-  {
-    "FirstName": "1",
-    "LastName": "1",
-    "Doctor": "dentist",
-    "Time": "12:00"
-  },
-  {
-    "FirstName": "123",
-    "LastName": "123123",
-    "Doctor": "neurologist",
-    "Time": "12"
-  },
-  {
-    "FirstName": "Luka",
-    "LastName": "Simonishvili",
-    "Doctor": "dentist",
-    "Time": "12"
-  },
-  {
-    "FirstName": "Luka",
-    "LastName": "Simonishvili",
-    "Doctor": "dentist",
-    "Time": "09:59"
-  },
-  {
-    "FirstName": "1",
-    "LastName": "Simonishvili",
-    "Doctor": "dentist",
-    "Time": "19:01"
   }
 ]
