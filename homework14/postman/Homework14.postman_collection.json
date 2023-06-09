@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "98ec0647-cd3f-4b2b-a8d8-d57f03f5da34",
+		"name": "Homework14",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8052913"
+	},
+	"item": [
+		{
+			"name": "add respodent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"createDate\": \"10/20/2022\",\r\n  \"firstName\": \"vaja\",\r\n  \"lastName\": \"Gagnidze\",\r\n  \"jobPosition\": \"Full stack dev\",\r\n  \"salary\": 1000,\r\n  \"workExperience\": 3,\r\n  \"personAddress\": {\r\n    \"country\": \"Georgia\",\r\n    \"city\": \"Tbilisi\",\r\n    \"homeNumber\": 21\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44335/api/Respodent/add",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44335",
+					"path": [
+						"api",
+						"Respodent",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all respodents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44335/api/Respodent/all",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44335",
+					"path": [
+						"api",
+						"Respodent",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get respodent by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44335/api/Respodent/GetById/07711dff-ad6a-4d4e-bbc2-65f9ff878680",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44335",
+					"path": [
+						"api",
+						"Respodent",
+						"GetById",
+						"07711dff-ad6a-4d4e-bbc2-65f9ff878680"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get filtered list of respodents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44335/api/Respodent/Filter?firstName=vaja&lastName=Gagnidze",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44335",
+					"path": [
+						"api",
+						"Respodent",
+						"Filter"
+					],
+					"query": [
+						{
+							"key": "firstName",
+							"value": "vaja"
+						},
+						{
+							"key": "lastName",
+							"value": "Gagnidze"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update Respodent",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": \"1e6b08b1-c978-41aa-a670-ab0c44f1a8a2\",\r\n        \"createDate\": \"10/20/2022\",\r\n        \"firstName\": \"vaja\",\r\n        \"lastName\": \"giorgadze\",\r\n        \"jobPosition\": \"Full stack dev\",\r\n        \"salary\": 1001,\r\n        \"workExperience\": 3,\r\n        \"personAddress\": {\r\n            \"country\": \"Georgia\",\r\n            \"city\": \"Tbilisi\",\r\n            \"homeNumber\": 21\r\n        }\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44335/api/Respodent/Update/07711dff-ad6a-4d4e-bbc2-65f9ff878680",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44335",
+					"path": [
+						"api",
+						"Respodent",
+						"Update",
+						"07711dff-ad6a-4d4e-bbc2-65f9ff878680"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44335/api/Respodent/Delete/1e6b08b1-c978-41aa-a670-ab0c44f1a8a2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44335/api/Respodent/Delete/07711dff-ad6a-4d4e-bbc2-65f9ff878680",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44335",
+					"path": [
+						"api",
+						"Respodent",
+						"Delete",
+						"07711dff-ad6a-4d4e-bbc2-65f9ff878680"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "Id": "1e6b08b1-c978-41aa-a670-ab0c44f1a8a2",
+    "CreateDate": "10/20/2022",
+    "FirstName": "vaja",
+    "LastName": "Gagnidze",
+    "JobPosition": "Full stack dev",
+    "Salary": 1000.0,
+    "WorkExperience": 3.0,
+    "PersonAddress": {
+      "Country": "Georgia",
+      "City": "Tbilisi",
+      "HomeNumber": 21
+    }
+  }
+]
