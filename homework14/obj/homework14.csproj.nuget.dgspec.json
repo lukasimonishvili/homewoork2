@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simon\\Desktop\\homework14\\homework14.csproj": {}
+    "C:\\Users\\simon\\Desktop\\work\\homeworks\\homework14\\homework14.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simon\\Desktop\\homework14\\homework14.csproj": {
+    "C:\\Users\\simon\\Desktop\\work\\homeworks\\homework14\\homework14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon\\Desktop\\homework14\\homework14.csproj",
+        "projectUniqueName": "C:\\Users\\simon\\Desktop\\work\\homeworks\\homework14\\homework14.csproj",
         "projectName": "homework14",
-        "projectPath": "C:\\Users\\simon\\Desktop\\homework14\\homework14.csproj",
+        "projectPath": "C:\\Users\\simon\\Desktop\\work\\homeworks\\homework14\\homework14.csproj",
         "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon\\Desktop\\homework14\\obj\\",
+        "outputPath": "C:\\Users\\simon\\Desktop\\work\\homeworks\\homework14\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",

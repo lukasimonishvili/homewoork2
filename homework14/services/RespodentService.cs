@@ -8,12 +8,12 @@ using System.Reflection;
 
 namespace homework14.services
 {
-    public static class RespodentService
+    public class RespodentService
     {
         private static string filesDirectory = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location).Split("bin")[0] + "/data";
-        private static string JSONFileDirectory = filesDirectory + "/respodents.json";
+        private string JSONFileDirectory = filesDirectory + "/respodents.json";
 
-        public static List<Respodent> CreateNewRespodent(Respodent respodent)
+        public List<Respodent> CreateNewRespodent(Respodent respodent)
         {
             var uniqueId = Guid.NewGuid().ToString();
             respodent.Id = uniqueId;
@@ -24,21 +24,21 @@ namespace homework14.services
             return respodents;
         }
 
-        public static List<Respodent> GetAllRespodents()
+        public List<Respodent> GetAllRespodents()
         {
             var JSON = File.ReadAllText(JSONFileDirectory);
             List<Respodent> respodents = JsonConvert.DeserializeObject<List<Respodent>>(JSON);
             return respodents;
         }
 
-        public static Respodent GetRespodentById(string id)
+        public Respodent GetRespodentById(string id)
         {
             var JSON = File.ReadAllText(JSONFileDirectory);
             List<Respodent> respodents = JsonConvert.DeserializeObject<List<Respodent>>(JSON);
             return respodents.Where(x => x.Id == id).FirstOrDefault();
         }
 
-        public static List<Respodent> FilterRespodents(string firstName, string lastName, string jobPosition, string salary, string workExperience)
+        public List<Respodent> FilterRespodents(string firstName, string lastName, string jobPosition, string salary, string workExperience)
         {
             var JSON = File.ReadAllText(JSONFileDirectory);
             List<Respodent> respodents = JsonConvert.DeserializeObject<List<Respodent>>(JSON);
@@ -83,7 +83,7 @@ namespace homework14.services
             return filteredRespodents;
         }
 
-        public static Respodent UpdateRespodent(Respodent respodent, string id)
+        public Respodent UpdateRespodent(Respodent respodent, string id)
         {
             var JSON = File.ReadAllText(JSONFileDirectory);
             List<Respodent> respodents = JsonConvert.DeserializeObject<List<Respodent>>(JSON);
@@ -94,7 +94,7 @@ namespace homework14.services
             return respodents[index];
         }
 
-        public static List<Respodent> DeleteRespodent(string id)
+        public List<Respodent> DeleteRespodent(string id)
         {
             var JSON = File.ReadAllText(JSONFileDirectory);
             List<Respodent> respodents = JsonConvert.DeserializeObject<List<Respodent>>(JSON);
@@ -104,7 +104,7 @@ namespace homework14.services
             return respodents;
         }
 
-        public static int FindIndexById(string id)
+        public int FindIndexById(string id)
         {
             var JSON = File.ReadAllText(JSONFileDirectory);
             List<Respodent> respodents = JsonConvert.DeserializeObject<List<Respodent>>(JSON);
