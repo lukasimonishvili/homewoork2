@@ -1,0 +1,12 @@
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\bin\Debug\net5.0\DOMAIN.deps.json
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\bin\Debug\net5.0\DOMAIN.dll
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\bin\Debug\net5.0\DOMAIN.pdb
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\obj\Debug\net5.0\DOMAIN.csproj.AssemblyReference.cache
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\obj\Debug\net5.0\DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\obj\Debug\net5.0\DOMAIN.AssemblyInfoInputs.cache
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\obj\Debug\net5.0\DOMAIN.AssemblyInfo.cs
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\obj\Debug\net5.0\DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\obj\Debug\net5.0\DOMAIN.dll
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\obj\Debug\net5.0\refint\DOMAIN.dll
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\obj\Debug\net5.0\DOMAIN.pdb
+C:\Users\simon\Desktop\work\homeworks\homework17-18\DOMAIN\obj\Debug\net5.0\ref\DOMAIN.dll
